@@ -1,0 +1,44 @@
+{% extends 'core/base.html' %}
+{%  load static %}
+{% block content %}
+<div class=" mt-5">
+    <div class="text-center" >
+ <img src="{% static 'core/images/h2.jpg' %}" alt="profilepic" class="img-fluid rounded-circle" 
+ width="250px" height="150px">
+</div>
+</div> 
+<div class=" mt-10 text-white mx-1 text-justify ">
+    <h1 class="font-weight-bold">Hello,</h1>
+    <div class="px-4" style="line-height:2rem;">
+        <p style="text-indent:100px;">
+           <b class="text-warning"> sidhant kumar sah </b>
+       said:
+ 
+            Hello Everyone,
+
+               My name is sidhant kumar sah  from <b class="text-warning">ballia , UP </b>. I am pursuing <b class="text-warning">B.TECH</b> in Computer Science.
+
+               I have experience in various programming languages such as C, C++, Java, and Python, but I am particularly skilled in python. I have a keen interest in web development, which is why I started learning it.
+
+             Nowdays, I am focused on developing my skills to become a <b class="text-warning">MERN full-stack web developer.</b> I have developed several projects single-handedly using HTML, CSS, and JavaScript.
+
+            In addition, I have also developed some front-end projects using ReactJS.
+
+           Currently, I am focusing on learning backend development to become a full-stack web developer.
+
+          I believe that hard work and smart work both are essential to achieve success.
+
+        I'm committed to learning new things every day. I enjoy sharing my knowledge with others and always seek out opportunities to do so.
+
+        That's all about me.
+
+         Thank you.
+
+        </p>
+    </div>
+    <div class="text-center">
+<a href="{% url 'contact' %}" class="btn btn-outline-warning my-3  mr-5">Hire me</a>
+<a href="{% url 'contact' %}" class="btn btn-outline-info my-3">Contact</a>
+</div>
+</div>
+{% endblock content %}  

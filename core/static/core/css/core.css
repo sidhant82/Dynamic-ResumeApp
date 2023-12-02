@@ -1,0 +1,32 @@
+html,
+body{
+    height: 100%;
+}
+.container-fluid {
+    min-height: 100%;
+}
+/* services icon color */
+.i-color {
+    color: chartreuse;
+}
+ /* services subtitle color */
+ .ss-color {
+    color: whitesmoke;
+ }
+
+ a.nov-link {
+    color:whitesmoke;
+ }
+
+ a.nov-link:hover {
+    color:black;
+    background-color: blueviolet;
+
+ }
+
+ a.nov-link.active {
+    color:black;
+    background-color: blueviolet;
+    font-weight: bold;
+
+ }
